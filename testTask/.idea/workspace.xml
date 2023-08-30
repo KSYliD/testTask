@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cac079bb-3c9b-4770-8187-17db5f30a2c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SQLScript/script.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CreateEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ReadEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ReadEquationMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/EquationDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/EquationDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Equation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/services/EquationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/services/EquationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/services/RealRootValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/services/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ValidatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CreateEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CreateEquation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/RealRootValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/RealRootValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/Validator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +55,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ValidatorTest">
+  <component name="RunManager" selected="Application.CreateEquation">
     <configuration name="CreateEquation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.CreateEquation" />
       <module name="testTask" />
@@ -143,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ValidatorTest" />
         <item itemvalue="Application.CreateEquation" />
+        <item itemvalue="JUnit.ValidatorTest" />
         <item itemvalue="Application.ReadEquation" />
         <item itemvalue="JUnit.ValidatorTest.toValidateTestFalse11" />
         <item itemvalue="JUnit.ValidatorTest.toValidateTestFalse10" />
@@ -166,7 +154,7 @@
       <workItem from="1693210174948" duration="3900000" />
       <workItem from="1693318017670" duration="21302000" />
       <workItem from="1693416207615" duration="1487000" />
-      <workItem from="1693426857482" duration="2924000" />
+      <workItem from="1693426857482" duration="4543000" />
     </task>
     <servers />
   </component>

@@ -12,7 +12,7 @@ public class Validator {
                 hasConsecutiveOperators(equation));
     }
 
-    public static boolean isValidParentheses(String equation) {
+    private static boolean isValidParentheses(String equation) {
         Stack<Character> stack = new Stack<>();
 
         for (char c : equation.toCharArray()) {
@@ -31,7 +31,7 @@ public class Validator {
         return stack.isEmpty();
     }
 
-    public static boolean isValidEquation(String expression){
+    private static boolean isValidEquation(String expression){
         String regex = "^[x\\d+\\-/*().]+={1}[x\\d+\\-/*().]+$";
 
         Pattern pattern = Pattern.compile(regex);
@@ -40,12 +40,21 @@ public class Validator {
         return matcher.find();
     }
 
-    public static boolean hasConsecutiveOperators(String expression) {
+    private static boolean hasConsecutiveOperators(String expression) {
         String regex = "[+*/-][+*/]";
 
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(expression);
         return !matcher.find();
+    }
+
+    public static boolean rootValidate(String root){
+        String regex = "^-?\\d+.{1}\\d+$";
+
+        Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(root);
+
+        return matcher.find();
     }
 
 }
