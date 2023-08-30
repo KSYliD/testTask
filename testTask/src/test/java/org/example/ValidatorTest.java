@@ -81,5 +81,25 @@ public class ValidatorTest {
         boolean real = Validator.toValidate("(-)=");
         Assertions.assertFalse(real);
     }
+    @Test
+    void toValidateTestFalse7(){
+        boolean real = Validator.toValidate("+x+2=4");
+        Assertions.assertFalse(real);
+    }
+    @Test
+    void toValidateTestFalse8(){
+        boolean real = Validator.toValidate("x+2+=4");
+        Assertions.assertFalse(real);
+    }
+    @Test
+    void toValidateTestFalse9(){
+        boolean real = Validator.toValidate("x+2=+4");
+        Assertions.assertFalse(real);
+    }
+    @Test
+    void toValidateTestFalse10(){
+        boolean real = Validator.toValidate("x+2=4+");
+        Assertions.assertFalse(real);
+    }
 
 }

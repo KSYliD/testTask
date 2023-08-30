@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cac079bb-3c9b-4770-8187-17db5f30a2c4" name="Changes" comment="">
+    <list default="true" id="cac079bb-3c9b-4770-8187-17db5f30a2c4" name="Changes" comment="Root validation fix commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CreateEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CreateEquation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/RealRootValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/RealRootValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ValidatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +54,26 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.CreateEquation">
+  <component name="RunManager" selected="JUnit.ValidatorTest">
     <configuration name="CreateEquation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.CreateEquation" />
       <module name="testTask" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="testTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,33 +109,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidatorTest.toValidateTestFalse10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidatorTest.toValidateTestFalse7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.services.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.ValidatorTest" />
-      <option name="METHOD_NAME" value="toValidateTestFalse10" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidatorTest.toValidateTestFalse11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ValidatorTest" />
-      <option name="METHOD_NAME" value="toValidateTestFalse11" />
+      <option name="METHOD_NAME" value="toValidateTestFalse7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CreateEquation" />
         <item itemvalue="JUnit.ValidatorTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ValidatorTest.toValidateTestFalse7" />
+        <item itemvalue="Application.CreateEquation" />
         <item itemvalue="Application.ReadEquation" />
-        <item itemvalue="JUnit.ValidatorTest.toValidateTestFalse11" />
-        <item itemvalue="JUnit.ValidatorTest.toValidateTestFalse10" />
       </list>
     </recent_temporary>
   </component>
@@ -154,11 +150,24 @@
       <workItem from="1693210174948" duration="3900000" />
       <workItem from="1693318017670" duration="21302000" />
       <workItem from="1693416207615" duration="1487000" />
-      <workItem from="1693426857482" duration="4543000" />
+      <workItem from="1693426857482" duration="6670000" />
     </task>
+    <task id="LOCAL-00001" summary="Root validation fix commit">
+      <option name="closed" value="true" />
+      <created>1693431585698</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693431585698</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Root validation fix commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Root validation fix commit" />
   </component>
 </project>
